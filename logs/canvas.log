@@ -1,0 +1,5 @@
+2025-05-28 13:30:09,501 [ERROR] [main] [com.mehul.examples.canvas.App] .run(65) | CanvasException: Command not found! The line must start with letter: 'C', 'L', 'R, 'B' or 'Q' for exit.
+com.mehul.examples.canvas.exception.CommandNotFoundException: Command not found! The line must start with letter: 'C', 'L', 'R, 'B' or 'Q' for exit.
+	at com.mehul.examples.canvas.cmd.factory.CommandFactoryImpl.buildCommand(CommandFactoryImpl.java:106)
+	at com.mehul.examples.canvas.App.run(App.java:57)
+	at com.mehul.examples.canvas.App.main(App.java:40)
